@@ -1,0 +1,34 @@
+.clock {
+    border: 2px solid black;
+    border-radius: 50%;
+    display: block;
+    margin: 100px auto;
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+.armHours, .armMinutes, .armSeconds {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    height: 3px;
+    width: 150px;
+}
+
+.armHours {
+    height: 5px;
+}
+
+.armSeconds {
+    height: 2px;
+}
+
+
+.timeBox {
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+}
